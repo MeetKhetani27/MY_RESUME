@@ -1,13 +1,55 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>My Resume</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meet Khetani - Resume</title>
+    <style>
+        @media (max-width: 768px) {
+            body {
+                padding: 15px !important;
+            }
+            .contact-info {
+                flex-direction: column !important;
+                gap: 5px !important;
+            }
+            .contact-info span {
+                display: none;
+            }
+            .skills-container {
+                gap: 8px !important;
+            }
+            .skill-tag {
+                font-size: 12px !important;
+                padding: 4px 8px !important;
+            }
+            section {
+                margin-bottom: 20px !important;
+            }
+        }
+    </style>
 </head>
-<body style="font-family: Arial, sans-serif; max-width: 800px; margin: 0 auto; padding: 20px; line-height: 1.6; color: #333;">
+<body style="font-family: Arial, sans-serif; max-width: 800px; margin: 0 auto; padding: 20px; line-height: 1.6; color: #333; width: 100%; box-sizing: border-box;">
     <header style="text-align: center; margin-bottom: 30px; border-bottom: 2px solid #3498db; padding-bottom: 15px;">
-        <h1 style="color: #2c3e50; margin-bottom: 5px;">Meet Khetani</h1>
-        <p style="margin: 5px 0;">Full Stack Developer</p>
-        <a   href="mailto:meetkhetani8@gmail.com" target="_blank" style="text-decoration: none; color: #7f8c8d;">Email:meetkhetani8@gmail.com | <a href="tel:8849218079" style="text-decoration: none; color:   #7f8c8d;">Phone:8849218079 |</a>  <a href="http://github.com/MeetKhetani27/" target="_blank" style="text-decoration: none; color: #7f8c8d;">GitHub:MeetKhetani27 | </a> <a href="https://www.linkedin.com/in/meet-khetani-27/" target="_blank" style="text-decoration: none; color: #7f8c8d;">LinkedIn:MeetKhetani27</a>
+        <h1 style="color: #2c3e50; margin-bottom: 10px; font-size: clamp(24px, 5vw, 36px);">Meet Khetani</h1>
+        <p style="margin: 5px 0 15px 0; font-size: clamp(16px, 3vw, 20px); color: #2c3e50;">Full Stack Developer</p>
+        <div class="contact-info" style="display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 10px; font-size: 14px;">
+            <a href="mailto:meetkhetani8@gmail.com" target="_blank" style="text-decoration: none; color: #7f8c8d; display: flex; align-items: center;">
+                <span style="margin-right: 5px;">📧</span> meetkhetani8@gmail.com
+            </a>
+            <span style="color: #bdc3c7;">|</span>
+            <a href="tel:8849218079" style="text-decoration: none; color: #7f8c8d; display: flex; align-items: center;">
+                <span style="margin-right: 5px;">📞</span> 8849218079
+            </a>
+            <span style="color: #bdc3c7;">|</span>
+            <a href="http://github.com/MeetKhetani27/" target="_blank" style="text-decoration: none; color: #7f8c8d; display: flex; align-items: center;">
+                <span style="margin-right: 5px;">💻</span> GitHub
+            </a>
+            <span style="color: #bdc3c7;">|</span>
+            <a href="https://www.linkedin.com/in/meet-khetani-27/" target="_blank" style="text-decoration: none; color: #7f8c8d; display: flex; align-items: center;">
+                <span style="margin-right: 5px;">🔗</span> LinkedIn
+            </a>
+        </div>
     </header>
 
     <section style="margin-bottom: 25px;">
@@ -39,22 +81,22 @@
 
     <section style="margin-bottom: 25px;">
         <h2 style="color: #2c3e50; border-bottom: 1px solid #bdc3c7; padding-bottom: 5px;">SKILLS</h2>
-        <div style="display: flex; flex-wrap: wrap; gap: 15px;">
-            <span style="background-color: #e0e0e0; padding: 5px 10px; border-radius: 15px;">HTML5</span>
-            <span style="background-color: #e0e0e0; padding: 5px 10px; border-radius: 15px;">CSS3</span>
-            <span style="background-color: #e0e0e0; padding: 5px 10px; border-radius: 15px;">JavaScript</span>
-            <span style="background-color: #e0e0e0; padding: 5px 10px; border-radius: 15px;">PHP</span>
-            <span style="background-color: #e0e0e0; padding: 5px 10px; border-radius: 15px;">Laravel</span>
-            <span style="background-color: #e0e0e0; padding: 5px 10px; border-radius: 15px;">Responsive Design</span>
-            <span style="background-color: #e0e0e0; padding: 5px 10px; border-radius: 15px;">Git</span>
+        <div class="skills-container" style="display: flex; flex-wrap: wrap; gap: 10px; margin-top: 10px;">
+            <span class="skill-tag" style="background-color: #e3f2fd; color: #1976d2; padding: 4px 12px; border-radius: 15px; font-size: 13px; font-weight: 500; white-space: nowrap;">HTML5</span>
+            <span class="skill-tag" style="background-color: #e3f2fd; color: #1976d2; padding: 4px 12px; border-radius: 15px; font-size: 13px; font-weight: 500; white-space: nowrap;">CSS3</span>
+            <span class="skill-tag" style="background-color: #e3f2fd; color: #1976d2; padding: 4px 12px; border-radius: 15px; font-size: 13px; font-weight: 500; white-space: nowrap;">JavaScript</span>
+            <span class="skill-tag" style="background-color: #e3f2fd; color: #1976d2; padding: 4px 12px; border-radius: 15px; font-size: 13px; font-weight: 500; white-space: nowrap;">PHP</span>
+            <span class="skill-tag" style="background-color: #e3f2fd; color: #1976d2; padding: 4px 12px; border-radius: 15px; font-size: 13px; font-weight: 500; white-space: nowrap;">Laravel</span>
+            <span class="skill-tag" style="background-color: #e3f2fd; color: #1976d2; padding: 4px 12px; border-radius: 15px; font-size: 13px; font-weight: 500; white-space: nowrap;">Responsive Design</span>
+            <span class="skill-tag" style="background-color: #e3f2fd; color: #1976d2; padding: 4px 12px; border-radius: 15px; font-size: 13px; font-weight: 500; white-space: nowrap;">Git</span>
         </div>
     </section>
 
-    <section>
-        <h2 style="color: #2c3e50; border-bottom: 1px solid #bdc3c7; padding-bottom: 5px;">PROJECTS</h2>
-        <div style="margin-bottom: 15px;">
-            <h3 style="margin-bottom: 5px;">Apple Hub</h3>
-            <p style="margin: 5px 0;">Developed a fully responsive Apple Hub with product filtering and cart functionality.</p>
+    <section style="margin-bottom: 30px;">
+        <h2 style="color: #2c3e50; border-bottom: 1px solid #bdc3c7; padding-bottom: 5px; font-size: clamp(18px, 4vw, 24px);">PROJECTS</h2>
+        <div style="margin-bottom: 20px; background: #f9f9f9; padding: 15px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
+            <h3 style="margin-bottom: 8px; color: #2c3e50; font-size: clamp(16px, 3.5vw, 20px);">Apple Hub</h3>
+            <p style="margin: 5px 0 10px 0; line-height: 1.5;">Developed a fully responsive Apple Hub with product filtering and cart functionality.</p>
             <p style="margin: 5px 0; font-style: italic;"> Frontend Technologies: HTML, CSS, JavaScript</p>
             <p style="margin: 5px 0; font-style: italic;"> Backend Technologies: PHP, Laravel</p>
         </div>
